@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+  display: relative;
+}
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-colors {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.my-color {
+  height: 10%;
+  width: 10%;
+}
+
+#btn {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
